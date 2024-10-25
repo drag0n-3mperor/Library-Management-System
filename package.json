@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "a backend application for managing library resources",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/index.js"
   },
   "keywords": [
     "backend",
@@ -13,5 +14,9 @@
     "management"
   ],
   "author": "Bitan Das",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3"
+  }
 }
